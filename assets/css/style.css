@@ -1335,8 +1335,19 @@ input[type=reset]{
         float: left;
         width: 550px;
         margin-top: 55px;
-        padding-left: 110px;
+    
+    /*git commit fix: removed padding left on media query min-width: 1025px */
+      /*git commit 2*/
+        /*padding-left: 110px;*/
     }
+
+    /*git commit fix: displayed home_pg_testimonial  media query min-width: 1025px */
+      /*git commit 2*/
+    .home_pg_testimonial{
+      display:inline-block;
+
+    }
+
     .bio h4{
         margin-bottom: 10px;
         font-size: 120%;
