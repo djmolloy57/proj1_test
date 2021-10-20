@@ -1334,7 +1334,10 @@ input[type=reset]{
     .bio {
         float: left;
         width: 550px;
-        margin-top: 55px;
+
+        /* removed margin-top on bio on index on media query min-width: 1025px
+        commit 3*/
+        /*margin-top: 55px;*/
     
     /*git commit fix: removed padding left on media query min-width: 1025px */
       /*git commit 2*/
@@ -1371,11 +1374,24 @@ input[type=reset]{
         border-right: 10px;
         padding-bottom: 50px;
         padding-right: 20px;
-        margin-top: 55px;
+
+        /*fix: band_pic remove margin-top on index page on media query min-width: 1025px 
+        commit 3 */
+        margin-top: 0px;
+       
     }
     .gig-wrapper{
        padding-top: 0px;
-       margin-left: 785px;
+      
+    
+       /*margin-left: 785px;*/
+
+       /*fix: grip-wrapper amend left margin on index page on media query min-width: 1025px 
+        commit 3 */
+       margin-left: 720px;
+       
+       
+ 
        clear: both;
        padding-bottom: 50px;
    }
