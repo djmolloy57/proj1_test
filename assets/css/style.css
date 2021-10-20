@@ -1300,6 +1300,10 @@ input[type=reset]{
       text-align: right;
       width: 1535px;
       display: inline-block;
+
+      /*git commit fix-alignment of site menu on media query min-width: 1025px */
+      /*git commit 1*/
+      margin-left: 220px;
     }
     nav ul > li {
           display: inline-block;
