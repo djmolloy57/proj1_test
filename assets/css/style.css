@@ -1507,10 +1507,15 @@ input[type=reset]{
        position: absolute;
        top: 60px;
        right: 100px;
+
+       /*fix: display pic on testimonial on media query min-width: 1025px */
+       display: inline;
    }
    .testpic img{
         max-width: 550px;
         max-height: 550px;
+
+        
    }
    /*Contact Page Styling  */
    .pos-bookingform {
@@ -1565,6 +1570,9 @@ input[type=reset]{
        padding-left: 30px;
        padding-bottom: 0px;
        margin-left: 80px;
+
+      /*fix: display pic on Contact page on media query min-width: 1025px */
+      display: inline;
    }
    .basepic img{
        max-width: 810px;
