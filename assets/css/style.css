@@ -1268,6 +1268,9 @@ input[type=reset]{
           line-height: 12px;
           font-weight: bold;
           margin-left: 50px;
+
+          /*fix alignment of site logo by removing padding-top on media query min-width: 1025px commit 6*/
+          padding-top: 0px;
     }
 
     /*Page header Styling  */
@@ -1412,14 +1415,14 @@ input[type=reset]{
        padding-left: 150px;
        padding-right: 150px;
 
-       /*fix moved position-videolist closer to nav bar on Live page on media query min-width: 1025px commit 4*/
+       /*fix moved position-videolist closer to nav bar on Live page on media query min-width: 1025px commit 5*/
        margin-top: 10px;
    }
    .item-video{
        display: inline;
    }
    .ToFindOut p{    
-    /*fix moved ToFindOut paragraph to the left on Live page on media query min-width: 1025px commit 4*/
+    /*fix moved ToFindOut paragraph to the left on Live page on media query min-width: 1025px commit 5*/
      margin-left: 135px !important; /* added important as my rule is being ignored */
      font-size: 100%;
 
