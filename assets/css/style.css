@@ -998,12 +998,17 @@ input[type=reset]{
 
     label.logo{
         width: 200px;
-        font-size: 100%;
-        margin-left: 70px;
+        /*font-size: 100%; commented out commit 8*/
+    
         line-height: 12px;
         position: absolute;
-        top: 35px;
+  
         font-weight: bold;
+
+        /*fix: align logo increased margin-left and reduced top media query ipad portrait commit 8*/
+        margin-left: 78px;
+        top: 25px;
+
     }
     #menu{
       margin-right: 0;
@@ -1016,6 +1021,7 @@ input[type=reset]{
     }      
     nav ul {
       text-align: right;
+      
       display: inline-block;
     }
     nav ul li {
