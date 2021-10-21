@@ -1103,10 +1103,32 @@ input[type=reset]{
     margin-left: 120px;
     font-size: 100%;
   }
+
+  /*fix: amend alignment of star-wrapper-pos commit 10*/
+  .star-wrapper-pos
+  {
+     margin-left: 70px;
+     margin-top: 20px;
+
+     height: 120px;
+     width: 250px;
+  }
+ 
+  .star-section h5{
+    font-size: 100%;
+
+  }
+  .star-section ol > li{
+    font-size: 150% !important;
+  }
   .test_title{
       margin-top: 60px;
       margin-left: 70px;
       color: black;
+  }
+  .test_title h3{
+    font-size: 120%;
+
   }
   .review_container_pos{
       margin-left: 50px;
@@ -1115,6 +1137,18 @@ input[type=reset]{
       border-style: solid;
       border-color: black !important;
   }
+  .user_review{
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  .user_review p{
+    font-size: 110%;
+  }
+
+  .user_review footer {
+    font-size: 100%;
+  }
+
   .testpic{
      display: none;
   }
