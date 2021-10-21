@@ -1039,17 +1039,23 @@ input[type=reset]{
     }
     .bio {
         float: right;
-        width: 550px;
+        /*width: 550px;*/
         margin-top: 10px;
         padding-left: 10px;
         margin-left: 10px;
         margin-right: 130px;
         margin-bottom: 10px;
+
+        /*fix reduced width and increased margin-right of bio media query ipad portrait commit 7*/
+        width: 450px;
+        margin-right: 235px;
     }
     .gig-wrapper{
        clear: both;
        padding-bottom: 50px;
-       margin-left: 50px;
+
+       /*fix gig-wrapper alignment with margin-left media query ipad portrait commit 7*/
+       margin-left: 85px;
    }
    .bio h4{
      font-size: 110%;
