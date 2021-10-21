@@ -1064,20 +1064,28 @@ input[type=reset]{
        margin-left: 85px;
    }
    .bio h4{
-     font-size: 110%;
+     /*font-size: 110%;*/
+
+      /*fix: increase fontsize of bio on index page and increased height of footer media query ipad portrait commit 9*/
+     font-size: 140%;
+
    }
    .bio p{
-     font-size: 110%;
+     /*font-size: 110%;*/
+     font-size: 120%;
+
    }
    .bio span{
      font-size: 110%;
    }
 
    .gig-wrapper h3{
-      font-size: 80% !important;
+      /*font-size: 80% !important;*/
+      font-size: 120% !important;
    }
    .gig span{
-       font-size: 80% !important;
+      /* font-size: 80% !important;*/
+      font-size: 100% !important;
    }
    iframe {
       width: 650px;
@@ -1126,11 +1134,15 @@ input[type=reset]{
     background-color: grey;
     margin-bottom: 2px;
     max-height: 300px;
-    height: 50px;
+   
+    /*height: 50px;*/
+   
     width: 100%;
     position: fixed;
     left: 0;
     bottom: 0;
+
+    height: 60px !important;
   }
   #page_footer{
     background-color: grey;
