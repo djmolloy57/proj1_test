@@ -858,7 +858,9 @@ input[type=reset]{
      margin-top: 10px;
    }
    nav{
-      margin-bottom: 5px !important;            
+      margin-bottom: 5px !important; 
+
+    
    }     
    nav ul {
      text-align: right;
@@ -1028,14 +1030,51 @@ input[type=reset]{
 
   }
   .pos-bookingform {
+
+    margin-top: 1px;
+
     max-width: 50%; /*!important;*/
     float: left;
     margin-left: 40px;
+    
+    background-color: blue;
+    height: 450px !important;
+    margin-bottom: 40px;
+  }
+
+  input[type=text],input[type=email],input[type=date],textarea{
+    width: 270px;
+    margin-bottom: 5px !important;
+
+  }
+  #textbox_id{
+    margin-left: 0px;
+    padding-left: 0px;
+    
+  }
+  input[type=submit]{
+    margin-left: 40px;
+    font-size: 60% !important;
+  }
+
+  input[type=reset]{
+    
+    font-size: 60% !important;
   }
 
   /*fix: change form title to uppercase on contact page commit 10 */
   .pos-bookingform h3 {
     text-transform: uppercase;
+  }
+  .pos-bookingform h3{
+    font-size: 80% !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  form label {
+    font-size: 70% !important;
+    padding-top: 0px !important;
+    
   }
   .basepic img {
     float: right;
