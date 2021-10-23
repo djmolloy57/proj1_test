@@ -942,16 +942,21 @@ input[type=reset]{
   }
 
   .position-videolist{
-    position: absolute;
-    right: 1px;
-    margin-left: 20px;
+
+    width: 720px !important;
+
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+
+    margin-top: 5px !important;
+    padding-top: 5px !important;
   }
   #video-list{    
-    width: 800px;  
-    margin-left: 30px !important;
-    padding-left: 30px !important;
-    margin-right: 0px !important;
-    padding-right: 0px !important; 
+    /*video list width reduced live page and added padding and margin top*/
+    width: 670px;  
+    margin-top: 5px !important;
+    padding-top: 5px !important;
+
   }
   .ToFindOut{
     display: none;
@@ -980,10 +985,12 @@ input[type=reset]{
   iframe {
      width: 200px;
   }
-  .position-videolist
+  /*.position-videolist
   {
-     padding-left: 100px;
-  }
+     /*padding-left: 100px;
+
+  }*/
+
   .item-video{
      display: inline;
   }
@@ -994,17 +1001,28 @@ input[type=reset]{
   }
   .test_title{
     color: black;
-    margin-left: 70px;
-    margin-left: 30px; /* !important;*/
+   
+     /*testimonial review title reduced margin left*/
+    margin-left: 20px !important;
+    
+    /*testimonial review title fontsize reduced*/
+    font-size: 12px;
   }
 
   .star-wrapper-pos{
     display: none;
   }
   .review_container_pos{
-    width: 550px;  /*!important;*/
-    margin-left: 10px; /*!important;*/
+    width: 600px !important;
+    margin-left: 0px !important;
   }
+
+  /*reduce font-size of review section */
+  .user_review p{
+    font-size: 12px !important;
+  }
+
+
   .testpic{
     display: none;
 
