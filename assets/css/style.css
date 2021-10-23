@@ -1372,20 +1372,27 @@ input[type=reset]{
     }
 
     .band_pic img{
-        width: 45%;
-        height: 45%;
+        width: 40%;
+        height: 40%;
         float: left;
         margin-left: 20px;
         margin-right: 0;
+        margin-top: 30px;
     }
      .bio {
         float: right;
         max-width: 40%;
         margin-top: 1px;
-        padding-top: 5px;
+
+        padding-top: 25px;
+
         padding-left: 5px;
-        margin-left: 5px;
+        margin-left: 0px !important;
+
         margin-right: 55px;
+
+        position: absolute;
+        left: 460px;
     }
     .bio h4{
       font-size: 130%;
@@ -1401,7 +1408,7 @@ input[type=reset]{
        margin-top: 50px;
        padding-top:  50px;
 
-       padding-left: 510px;
+       padding-left: 380px;
    }
 
    .gig-wrapper h3{
