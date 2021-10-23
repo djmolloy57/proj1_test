@@ -1241,10 +1241,27 @@ input[type=reset]{
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
 
+  #menu{
+    /*widen menu options*/
+    width: 480px;
+    margin-left: 50px;
+    
+    /*position menu option correctly to the top right */
+    position: absolute;
+    top: 5px;
+    left: 460px;
+    
+  }
 
+  .logo{
+    float: left;
+  }
+    
     nav ul {
       float: right;
       display: inline-block;
+      margin-top: 5px;
+
     }
 
 
@@ -1252,7 +1269,10 @@ input[type=reset]{
           display: inline-block;
           text-align: center;
           margin-right: 5px;
-          width: 50px;
+
+          /*widen menu buttons in nav bar */
+          width: 80px;
+
           height: 8px;
           margin-top: 10px;
           background-color: grey;
@@ -1321,6 +1341,10 @@ input[type=reset]{
     margin-left: 120px;
     font-size: 100%;
   }
+  .star-wrapper-pos{
+    margin-top: 120px;
+    height: 160px;
+  }
   .pos-bookingform {
     float: left;
     margin-left: 90px;
@@ -1386,6 +1410,8 @@ input[type=reset]{
 
           /*fix alignment of site logo by removing padding-top on media query min-width: 1025px commit 6*/
           padding-top: 0px;
+
+          
     }
 
     /*Page header Styling  */
@@ -1416,6 +1442,7 @@ input[type=reset]{
       margin-bottom: 10px;
       padding: 0px 1px 0px 1px;
       text-align: right;
+      
       width: 1535px;
       display: inline-block;
 
