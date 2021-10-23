@@ -918,6 +918,7 @@ input[type=reset]{
 
     margin-left: 5px;
 
+  
     /*margin-right: 55px;*/
     position: absolute;
     left: 250px;
@@ -972,16 +973,20 @@ input[type=reset]{
   }
 
   .gig-wrapper{
-     padding-top: 1px;
-     margin-left: 330px;
+     padding-top: 5px;
+
+     margin-left: 270px !important;
      clear: both;
-     padding-bottom: 50px;
+     padding-bottom: 40px !important;
+     
 
      position: absolute;
      bottom: 25px;
+
+    font-size: 10px;
   }
   .gig span{
-    font-size: 20px !important;
+    /*font-size: 20px !important;*/
   }
 
   iframe {
