@@ -886,41 +886,61 @@ input[type=reset]{
    .burger_menu{
        display: none;
    }
+
+   /* reduced size band img and position it to the left and moved to top*/
+
    .band_pic img{     
-       width: 50%;
-       height: 50%;
+       width: 30%;
+       height: 30%;
        float: left;
-       margin-left: 20px;
-       margin-right: 0;
-       margin-top: 10px;
+       margin-left: 20px !important;
+       margin-right: 0px;
+       padding-left: 0px;
+       margin-top: 0px !important;
+
+       position: absolute;
+       top: 90px;
    }
+
+   /* reduced size bio and position it to the right and moved to top*/
    .bio {
     float: right;
-    max-width: 40%;
+
+    /*altered width*/
+    max-width: 20%;
+    
     margin-top: 10px; 
     padding-top: 5px; 
+
     padding-left: 5px;
+
     margin-left: 5px;
-    margin-right: 55px;
+
+    /*margin-right: 55px;*/
+    position: absolute;
+    left: 250px;
+    top: 70px;
    }
+
+   /* reduced fontsize in bio*/
    .bio h4{
-    font-size: 100%;
+    font-size: 95% !important;
    }
    .bio p{
-    font-size: 80%; /* !important;*/
+    font-size: 80% !important; /*added important so it wont ignore this rule*/
+    width: 350px;
   }
   .bio span{
-    font-size: 80%; /* !important;*/
+    font-size: 80% !important;
   }
   .home_pg_testimonial{
       display: none;
   }
-  .gig-wrapper > h3{
-     font-size: 80%; /* !important;*/
-  }
   .gig span{
-      font-size: 80%; /*!important;*/
+    max-width: 380px;
+    font-size: 15px;
   }
+
   .position-videolist{
     position: absolute;
     right: 1px;
@@ -949,6 +969,12 @@ input[type=reset]{
      margin-left: 330px;
      clear: both;
      padding-bottom: 50px;
+
+     position: absolute;
+     bottom: 25px;
+  }
+  .gig span{
+    font-size: 20px !important;
   }
 
   iframe {
@@ -1002,8 +1028,10 @@ input[type=reset]{
   #page_footer{
     background-color: grey;
     margin-bottom: 2px;
-    max-height: 300px;    
+    max-height: 300px;  
+
     height: 30px; /*!important;*/
+    
     width: 100%;
     position: fixed;
     left: 0;
@@ -1250,7 +1278,7 @@ input[type=reset]{
     position: absolute;
     top: 5px;
     left: 460px;
-    
+
   }
 
   .logo{
