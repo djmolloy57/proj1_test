@@ -274,6 +274,8 @@ footer ul >li i{
     padding: 20px;
     border: 3px solid var(--maroon);
 }
+
+
 input[type=text],input[type=email],input[type=date],textarea{
   background: transparent;
   color: var(--white);
@@ -500,6 +502,12 @@ iframe{
   height: 380px;
   margin-left: 5px;
 }
+
+/*fix: change form title to uppercase on contact page commit 10 */
+.pos-bookingform h3 {
+  text-transform: uppercase;
+}
+
 input[type=text],input[type=email],input[type=date],textarea{
   width: 270px;
 }
@@ -646,6 +654,12 @@ iframe{
   width: 298px;
   height: 418px;
 }
+
+/*fix: change form title to uppercase on contact page commit 10 */
+.pos-bookingform h3 {
+  text-transform: uppercase;
+}
+
 input[type=text],input[type=email],input[type=date],textarea{
   width: 270px;
 }
@@ -787,6 +801,12 @@ input[type=reset]{
     width: 298px;
     height: 418px;
   }
+
+  /*fix: change form title to uppercase on contact page commit 10 */
+  .pos-bookingform h3 {
+    text-transform: uppercase;
+  }
+
   input[type=text],input[type=email],input[type=date],textarea{
     width: 270px;
   }
@@ -967,6 +987,11 @@ input[type=reset]{
     max-width: 50%; /*!important;*/
     float: left;
     margin-left: 40px;
+  }
+
+  /*fix: change form title to uppercase on contact page commit 10 */
+  .pos-bookingform h3 {
+    text-transform: uppercase;
   }
   .basepic img {
     float: right;
@@ -1157,6 +1182,12 @@ input[type=reset]{
     width: 550px;
     height: 700px;
  }
+ .pos-bookingform h3 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 150%;
+  text-transform: uppercase;
+}
  .basepic img {
    display: none;
  }
@@ -1274,6 +1305,12 @@ input[type=reset]{
     float: left;
     margin-left: 90px;
  }
+ /*fix: change form title to uppercase on contact page commit 10 */
+ .pos-bookingform h3 {
+  text-transform: uppercase;
+ }
+
+
  .basepic img {
    float: right;
    margin-right: 80px;
@@ -1597,6 +1634,11 @@ input[type=reset]{
        padding-top: 40px;
        float: left;
    }
+   /*fix: change form title to uppercase on contact page commit 10 */
+   .pos-bookingform h3 {
+      text-transform: uppercase;
+    }
+
    input[type=text],input[type=email],input[type=date],textarea{
      background: transparent;
      width: 100%;
